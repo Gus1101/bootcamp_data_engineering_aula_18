@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "aula18"
+version = "0.1.0"
+description = ""
+authors = ["Gus1101 <augustosantosb60@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+sqlalchemy = "^2.0.31"
+requests = "^2.32.3"
+pandas = "^2.2.2"
+pydantic = "^2.7.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
